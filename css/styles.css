@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+}
+
+.flex_container {
+  align-items: center;
+  display: flex;
+  background-color: rgb(231, 176, 104);
+  justify-content: center;
+}
+
+.flex_container div {
+  margin: 4px;
+  text-decoration: underline;
+}
+
+#menu {
+  background-color: aquamarine;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;  
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  color: rgb(207, 11, 11);
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  padding: 0px 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#menu ul li a:hover {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: cornflowerblue;  
+}
+
+body {
+  background-color: moccasin;
+}
+
+.conjuntodama1 {  
+  min-height: 100vh;
+  margin-top: 98px;
+  width: 100%;
+  background-image: url(../img/conjuntodama1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.parrafo {
+  margin-top: 2%;
+}
+
+.form {
+  margin-top: 2%;
+}
+
+.titulo_form {
+  padding-top: 10px;
+  padding-left: 6px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15pt;
+  text-decoration: underline;
+}
+
+.formulario {
+  padding-top: 10px;
+  padding-left: 6px;
+}
+
+footer {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: rgb(182, 137, 225);
+  text-align: center;
+}
+ 
